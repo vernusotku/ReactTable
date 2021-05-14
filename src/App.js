@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Table from './component/table'
-
+import Table_new from './component/table'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'react-bootstrap'
 function App() {
   return (
     <div className="App">
-      <table>
-        <Table name='Alex' age='12' favorite='AAAAAAAAAAA' />
-      </table>
+        <Table_new />
     </div>
   );
 }

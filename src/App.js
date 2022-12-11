@@ -5,6 +5,7 @@ import 'react-bootstrap'
 function App() {
   return (
     <div className="App">
+      <script src="http://localhost:8097"></script>
         <Table_new />
     </div>
   );
